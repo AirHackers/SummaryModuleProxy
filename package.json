@@ -1,31 +1,28 @@
 {
-  "name": "",
-  "version": "",
-  "description": "Summary module for airbnb clone",
-  "author": "Keshav Mandayam",
-  "license": "ISC",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "name": "SummaryModuleProxy",
+  "version": "1.0.0",
+  "description": "> Project description",
+  "main": "./proxy/server.js",
   "scripts": {
-    "start": "nodemon ./server/server.js",
-    "build": "webpack --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./proxy/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirHackers/SummaryModuleProxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirHackers/SummaryModuleProxy/issues"
+  },
+  "homepage": "https://github.com/AirHackers/SummaryModuleProxy#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
     "express": "^4.16.4",
-    "path": "^0.12.7",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
-    "nodemon": "^1.18.4",
-    "webpack": "^4.22.0",
-    "webpack-cli": "^3.1.2"
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6",
+    "path": "^0.12.7"
   }
 }
